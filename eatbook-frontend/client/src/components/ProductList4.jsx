@@ -66,7 +66,7 @@ export default function ProductList4() {
           onClose={() => setToast(null)}
         />
       )}
-      <h2 className="product-list-title4">Sản phẩm mới</h2>
+      <h2 className="product-list-title4">Thức ăn mới</h2>
       <div className="product-grid">
         {displayedProducts && displayedProducts.map((product) => (
           <div key={product._id} 
